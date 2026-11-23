@@ -2,7 +2,7 @@
 
 **Core finding:** A keyword monitor achieves F1 ≈ 0.91 on in-distribution traces and collapses toward zero on out-of-distribution (paraphrased) traces — because its terms are substrings of the generator vocabulary, not a generalizing classifier. An LLM-as-judge monitor (Claude Haiku reading both agent action and tool/state event) substantially recovers recall on OOD traces and catches adversarial cases the keyword monitor misses entirely. The gap between them is the argument for semantic monitoring.
 
-> **Scope:** all traces are synthetic and illustrative. This is not Andon Labs data and does not claim findings about any production system.
+
 
 ---
 
